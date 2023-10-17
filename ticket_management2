@@ -5,12 +5,12 @@ ask2 = int (input("how many child "))
 ask3 = int (input("how many female chandidate "))
 section = int(input("for ac=1, sleeper= 2 , general=3 "))
 
-
+total= ask+ask3
 if section==1:
-    print("Your total fair is  " ,ask+ask3*5000)
+    print("Your total fair is  " ,total*5000)
 elif section==2:
-    print("Your total fair is  ", ask+ask3*3000)
+    print("Your total fair is  ", total*3000)
 elif section==3:
-    print("Your total fair is  ", ask+ask3*1000)
+    print("Your total fair is  ", total*1000)
 else:
     print("invalid input")
