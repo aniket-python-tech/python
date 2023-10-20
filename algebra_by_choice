@@ -1,0 +1,48 @@
+#
+#-------------------------------------------------------------------
+def zeal_edu1():
+    a= int(input("Enterthe value of a: "))
+    b= int(input("Enterthe value of b: "))
+    print("add",a+b)
+    
+def zeal_edu2():
+    a= int(input("Enterthe value of a: "))
+    b= int(input("Enterthe value of b: "))
+    print("sub",a-b)
+    
+def zeal_edu3():
+    a= int(input("Enterthe value of a: "))
+    b= int(input("Enterthe value of b: "))
+    print("mul",a*b)
+    
+def zeal_edu4():
+    a= int(input("Enterthe value of a: "))
+    b= int(input("Enterthe value of b: "))
+    print("div",a/b)
+    
+    
+def math_practice():
+    
+     
+    h=int(input("Enter the no of add=1, sub-2, mul-3, div-4 according to your choice "))
+  
+    if h==1:
+        zeal_edu1()
+    elif h==2:
+        zeal_edu2()
+    elif h==3:
+        zeal_edu3()
+    elif h==4:
+        zeal_edu4()
+        
+        
+math_practice()
+
+
+
+
+
+
+
+
+
